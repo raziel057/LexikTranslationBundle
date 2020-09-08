@@ -71,6 +71,8 @@ class ExportTranslationsCommand extends Command
         } else {
             $this->output->writeln('<comment>No translation\'s files in the database.</comment>');
         }
+        
+        return 0;
     }
 
     /**
